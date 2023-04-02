@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tela de login rick e morty</title>
+    <link rel="stylesheet" href="src/reset.css">
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <form action="index.php" method="post">
+    <main class="principal">
+        <h1>Faça seu login</h1>
+        <article class="nome">
+            <label for="nome"> Nome:
+                <input type="text" name="nome" id="nome" class="input" placeholder="  Coloque seu Nome" >
+            </label>
+        </article>
+
+        <article class="email"> Email:
+            <input type="email" name="email" id="email" class="input" placeholder="  Coloque seu Email" >
+        </article>
+        
+        <article class="senha"> Senha:
+            <input type="password" name="senha" id="senha" class="input" placeholder="  Coloque sua Senha" >
+        </article>
+
+        <article class="logar">
+            <input type="submit" value="Login" class="login" onclick="logar()">
+        </article>
+    </main>
+    </form>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>

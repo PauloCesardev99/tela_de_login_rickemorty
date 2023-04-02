@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+    height: 500px;
+    background: black url(img/bg-01.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.principal{
+    width: 400px;
+    margin: auto;
+    margin-top: 150px;
+    background-color: rgba(255, 255, 255, 0.932);
+    padding: 20px;
+    border: solid 1px blueviolet;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.295);
+}
+h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.input{
+    width: 70%;
+    height: 25px;
+    border-radius: 0px 10px 10px 0px
+}
+
+.nome, .email, .senha , .logar{
+    padding: 10px;
+}
+
+.logar{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.login{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border-color: black;
+    
+}
+
+.borda{
+    border-color: red;
+}
