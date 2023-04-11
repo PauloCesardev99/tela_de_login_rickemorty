@@ -23,6 +23,7 @@ h1{
 .input{
     width: 70%;
     height: 25px;
+    border: solid black 3px;
     border-radius: 0px 10px 10px 0px
 }
 
@@ -45,4 +46,8 @@ h1{
 
 .borda{
     border-color: red;
+}
+
+.borda-verde{
+    border: solid green 3px;
 }
